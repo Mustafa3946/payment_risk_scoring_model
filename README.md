@@ -4,13 +4,13 @@ This project demonstrates an end-to-end machine learning pipeline designed to pr
 
 ---
 
-## 🧠 Problem Statement
+## Problem Statement
 
 Flexible payment platforms need to assess risk in real time to provide smarter bill scheduling and credit decisions. This project predicts whether a user will miss an upcoming bill payment based on their historical behavior.
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **Language:** Python 3.10
 - **ML Framework:** scikit-learn, XGBoost
@@ -20,7 +20,7 @@ Flexible payment platforms need to assess risk in real time to provide smarter b
 
 ---
 
-## 📊 Features Used
+## Features Used
 
 - Days since last payment
 - Average bill amount
@@ -30,7 +30,7 @@ Flexible payment platforms need to assess risk in real time to provide smarter b
 
 ---
 
-## ⚙️ Pipeline Overview
+## Pipeline Overview
 
 1. **Data Ingestion:** Synthetic CSV data for users and payments
 2. **Feature Engineering:** Custom logic to extract temporal and behavioral patterns
@@ -41,7 +41,7 @@ Flexible payment platforms need to assess risk in real time to provide smarter b
 
 ---
 
-## 📦 API Usage
+## API Usage
 
 **Endpoint:** `POST /predict`
 
