@@ -5,7 +5,7 @@ WORKDIR /app
 
 # Copy code and model
 COPY app/inference.py ./inference.py
-COPY model/model.joblib ./model.joblib
+COPY model/model_rf.joblib ./model.joblib
 COPY requirements.txt ./requirements.txt
 
 # Install dependencies
