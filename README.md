@@ -102,6 +102,11 @@ In **`04_lambda_packaging.ipynb`**, the model is:
     result = predict_late_payment(example)
     print(result)  # Output: 0 or 1 (0 for on-time, 1 for late)
     ```
+### Run Locally with Docker
+
+```bash
+docker build -t payment-model -f docker/Dockerfile .
+docker run --rm payment-model
 
 ## AWS Lambda Deployment
 After training and testing the model locally, you can deploy it to AWS Lambda for real-time predictions.
